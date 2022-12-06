@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap 4</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudfare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<head>
+</head>
+<body style="background: url(snow2-1-1.gif); background-size: cover; background-repeat: no-repeat; "></body>
+    <br>
+    <br>
+    <br>
+<div style="text-align:center"> 
+ <video id="video1" width="1000">
+ <source src="yt5s.io-One Piece - Utae! Jingle Bell Lyrics (Kanji_Romaji_English).mp4" type="video/mp4">
+ </video>
+</div> 
+<div style="text-align:center"> 
+ <button onclick="playPause()">Play/Pause</button> 
+ <button onclick="makeBig()">Big</button>
+ <button onclick="makeNormal()">Normal</button>
+ <button onclick="makeSmall()">Small</button>
+ <br><br>
+</div> 
+<script> 
+var myVideo = document.getElementById("video1");
+function playPause() { 
+ if (myVideo.paused) 
+ myVideo.play(); 
+ else 
+ myVideo.pause(); 
+} 
+function makeBig() { 
+ myVideo.width = 1250; 
+}  
+function makeNormal() { 
+ myVideo.width = 1000;
+ } 
+ function makeSmall() { 
+ myVideo.width = 320; 
+}
+</script>
+
+</body> 
+</html>
